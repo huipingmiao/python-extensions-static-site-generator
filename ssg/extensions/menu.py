@@ -1,6 +1,6 @@
 from ssg import hooks, parsers
 
-file = []
+files = []
 
 @hooks.register("collect_files")
 def collect_files(source, site_parsers):
